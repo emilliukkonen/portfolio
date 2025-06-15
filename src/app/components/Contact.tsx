@@ -1,4 +1,8 @@
 import Image from "next/image";
+import getConfig from "next/config";
+const { publicRuntimeConfig } = getConfig();
+
+const basePath = publicRuntimeConfig.basePath || "";
 
 export default function Contact() {
   return (
@@ -22,7 +26,7 @@ export default function Contact() {
           <Image
             className="filter-blue"
             aria-hidden
-            src="/mail.png"
+            src={`${basePath}/mail.png`}
             alt="Email"
             width={40}
             height={40}
@@ -38,7 +42,7 @@ export default function Contact() {
           <Image
             className="filter-blue"
             aria-hidden
-            src="/linkedin.png"
+            src={`${basePath}/linkedin.png`}
             alt="LinkedIn"
             width={36}
             height={36}
@@ -55,7 +59,7 @@ export default function Contact() {
           <Image
             className="filter-blue"
             aria-hidden
-            src="/github-logo.png"
+            src={`${basePath}/github-logo.png`}
             alt="Github"
             width={36}
             height={36}

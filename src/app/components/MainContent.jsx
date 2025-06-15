@@ -1,4 +1,8 @@
 import Image from "next/image";
+import getConfig from "next/config";
+const { publicRuntimeConfig } = getConfig();
+
+const basePath = publicRuntimeConfig.basePath || "";
 
 export default function MainContent() {
   return (
@@ -12,7 +16,7 @@ export default function MainContent() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <Image className="filter-blue" aria-hidden src="/linkedin.png" alt="Linkedin" width={36} height={36} />
+          <Image className="filter-blue" aria-hidden src={`${basePath}/linkedin.png`} alt="Linkedin" width={36} height={36} />
           Linked In
         </a>
 
@@ -22,7 +26,7 @@ export default function MainContent() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <Image className="filter-blue" aria-hidden src="/github-logo.png" alt="Github" width={36} height={36} />
+          <Image className="filter-blue" aria-hidden src={`${basePath}/github-logo.png`} alt="Github" width={36} height={36} />
           Github
         </a>
 

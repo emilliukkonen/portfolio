@@ -1,9 +1,9 @@
 "use client";
 
 import Image from "next/image";
-import getConfig from "next/config";
-import { useState } from "react";
 
+import { useState } from "react";
+import getConfig from "next/config";
 const { publicRuntimeConfig } = getConfig();
 
 const basePath = publicRuntimeConfig.basePath || "";
