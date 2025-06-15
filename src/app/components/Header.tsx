@@ -1,12 +1,7 @@
 "use client";
 
 import Image from "next/image";
-
 import { useState } from "react";
-import getConfig from "next/config";
-const { publicRuntimeConfig } = getConfig();
-
-const basePath = publicRuntimeConfig.basePath || "";
 
 
 export default function Header() {
@@ -18,7 +13,7 @@ export default function Header() {
         {/* Wrap image and name together */}
         <div className="flex items-center space-x-10">
           <Image
-            src={`${basePath}/profilepic.jpg`}
+            src="profilepic.jpg"
             alt="profile"
             width={80}
             height={80}
