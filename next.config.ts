@@ -2,10 +2,10 @@
 const nextConfig = {
   output: 'export',
   basePath: '/portfolio',
-  assetPrefix: '/portfolio/',
+  assetPrefix: '/portfolio',
   trailingSlash: true,
   images: {
-    unoptimized: true, // required for next/image to work with static export
+    unoptimized: true, // Important for static export
   },
 };
 
