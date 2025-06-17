@@ -1,7 +1,7 @@
 export default function Projects() {
   return (
     <section
-      className="min-h-screen w-full max-w-3xl mx-auto px-4 sm:px-8 flex flex-col items-start justify-center"
+      className="min-h-screen mt-5 w-full max-w-3xl mx-auto px-4 sm:px-8 flex flex-col items-start justify-center"
     >
       <h2
         id="projects"

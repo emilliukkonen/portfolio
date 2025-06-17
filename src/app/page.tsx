@@ -25,7 +25,7 @@ export default function Home() {
     {
       company: "SLS",
       role: "IT Intern",
-      duration: "May 2022 - Aug 2024",
+      duration: "May 2022 - Aug 2022",
       description: "Provided IT support to employees, managed help desk tickets, and performed server administration tasks. Assisted in the migration from on-premises servers to the cloud and set up around 50 new laptops, helping employees with installation and onboarding to new systems",
     },
   ];
