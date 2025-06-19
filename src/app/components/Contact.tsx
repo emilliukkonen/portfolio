@@ -9,7 +9,7 @@ export default function Contact() {
         id="contact"
         className="mb-4 text-7xl font-medium w-full text-center mb-30"
       >
-        Let&apos;s keep in touch!
+        Connect with me!
       </h2>
 
       <div className="flex flex-wrap justify-center gap-4 items-center w-full">

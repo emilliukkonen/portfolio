@@ -17,11 +17,17 @@ export default function About() {
       <div className="max-w-prose leading-relaxed animate-color-shift">
         <p>
           As a passionate developer, I&apos;m currently pursuing my M.Sc. in Software and Service Engineering at
-          Aalto University with ML/AI as my minor. I&apos;m currently working as a software developer trainee at
-          Ericsson.
+          Aalto University with ML/AI as my minor. I have a B.Sc. degree in Automation and robotics. I wrote my theses on 
+          <a 
+            href="https://aaltodoc.aalto.fi/items/96b45641-b568-4115-9586-5fd97ef356a9"
+            className="underline underline-offset-4 hover:text-blue-400"
+            target="_blank"
+          > Vision-Language Models for Trajectory Prediction.
+          </a>
         </p>
         <div className="mt-6 w-full">
-          <p>My portfolio showcases my previous experiences and projects that highlight my skills.</p>
+          <p>I&apos;m currently working as a software developer trainee at
+          Ericsson. My portfolio showcases my previous experiences and projects that highlight my skills.</p>
         </div>
         <div className="mt-6 w-full">
           <p>Feel free to reach out!</p>
